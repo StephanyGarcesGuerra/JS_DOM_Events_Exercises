@@ -27,20 +27,8 @@ function randomly() {
 
 }
 
-// let button = document.getElementById("randomColorBtn")
-// button.addEventListener("click", function randomly() {
-//     let newRandomColor = "#" + Math.floor(Math.random()*16777215).toString(16)
-//     // console.log(newRandomColor);
-//     document.body.style.backgroundColor = newRandomColor;
-
-    
-// }
-  
-// )
-
-// function randomly() {
-//     let newRandomColor = "#" + Math.floor(Math.random()*16777215).toString(16)
-//     console.log(newRandomColor);
-    
-    
-// }
+function changeBtnStyle() {
+    const btn = document.querySelector(".cool-btn")
+    btn.classList.toggle("glow"); // Toggles glow effect
+   }
+   
